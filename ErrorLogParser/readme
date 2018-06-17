@@ -1,0 +1,4 @@
+This PowerShell script imports the SQL Server Error Log to a database table. You must set the following parameters:
+- $errorlogpath: this is the path for the error log files
+- $server: SQL Server network name
+- $database: database name where the log files will be imported.
